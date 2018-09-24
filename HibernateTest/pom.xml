@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HibernateTest</groupId>
+  <artifactId>com.test</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  
+   <dependency>
+      <groupId>org.hibernate.common</groupId>
+      <artifactId>hibernate-commons-annotations</artifactId>
+      <version>4.0.1.Final</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-annotations</artifactId>
+      <version>3.5.6-Final</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.hibernate/ejb3-persistence -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>ejb3-persistence</artifactId>
+    <version>1.0.2.GA</version>
+    <type>pom</type>
+</dependency>
+  </dependencies>
+  <build>
+  </build>
+</project>
